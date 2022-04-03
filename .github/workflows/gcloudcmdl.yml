@@ -10,7 +10,7 @@ on:
 # A workflow run is made up of one or more jobs that can run sequentially or in parallel
 jobs:
   list_service_accounts:
-    if: github.actor != 'kingthorin'
+    if: github.actor != 'vdebroy'
     # The type of runner that the job will run on
     runs-on: ubuntu-latest
 
